@@ -981,6 +981,14 @@ nav li a:focus {
     border-radius: 2px;
 }
 
+.check:checked {
+    .label-span {
+        background-color: var(--pressed-state);
+        border: none;
+        fill: var(--light);
+    }
+}
+
 .privacy {
     margin-bottom: 24px;
 }
@@ -997,36 +1005,32 @@ nav li a:focus {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
 }
 
-.span-svg{
-    
-}
 
 .send {
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
     border-radius: 4px;
     background-color: var(--brand-color);
     color: var(--white-background);
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    line-height: 1.5;
+    display: block;
     letter-spacing: 0.04em;
     margin-left: 119px;
     margin-top: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+
 }
 
 
@@ -1037,4 +1041,8 @@ nav li a:focus {
 
 .form-p {
     margin-bottom: 16px;
+}
+
+.label-a {
+    color: var(--brand-color);
 }
