@@ -861,7 +861,7 @@ nav li a:focus {
     justify-content: center;
     align-items: center;
     background-color: var(--brand-color);
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border-radius: 4px;
     margin-top: 16px;
