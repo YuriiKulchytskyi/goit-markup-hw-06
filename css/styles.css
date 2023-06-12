@@ -973,7 +973,7 @@ nav li a:focus {
     border-color: var(--brand-color);
 }
 
-.check {
+.check-input {
     box-sizing: border-box;
     margin-top: 16px;
     margin-left: 24px;
@@ -981,21 +981,23 @@ nav li a:focus {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    background-color: red;
 }
 
-.check:checked+.label-span {
+.check-input:checked + .policy span {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
 
 }
 
-.span-svg{
+.span-svg {
     position: absolute;
 }
 
 .privacy {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+
 }
 
 .policy {
@@ -1051,3 +1053,24 @@ nav li a:focus {
 .label-a {
     color: var(--brand-color);
 }
+
+
+
+.check-text span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+  }
+  
+  .modal-check:checked + .check-text span {
+    color: green;
+    background-color: #ff6c00;
+    border: none;
+    fill: #d0efc1;
+  }
