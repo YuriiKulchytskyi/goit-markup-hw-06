@@ -984,7 +984,25 @@ nav li a:focus {
     background-color: red;
 }
 
-.check-input:checked + .policy span {
+.cont{
+    margin-bottom: 16px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.check-input:checked+.policy span {
     background-color: var(--pressed-state);
     border: none;
     fill: var(--light);
@@ -1066,11 +1084,11 @@ nav li a:focus {
     align-items: center;
     justify-content: center;
     fill: transparent;
-  }
-  
-  .modal-check:checked + .check-text span {
+}
+
+.modal-check:checked+.check-text span {
     color: green;
     background-color: #ff6c00;
     border: none;
     fill: #d0efc1;
-  }
+}

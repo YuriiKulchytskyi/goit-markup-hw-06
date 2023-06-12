@@ -350,37 +350,25 @@
                         </svg>
                     </div>
                 </div>
-                <div class="context-modal">
+                <div class="context-modal cont">
                     <label for="user-comment" class="input-label"> Comment </label>
-                    <textarea type="text" name="user-comment" id="user-comment" class="modal-input textarea"
+                    <textarea name="user-comment" id="user-comment" class="modal-input textarea"
                         placeholder="Text input" required minlength="2" maxlength="10"></textarea>
 
                 </div>
                 <div class="context-modal privacy">
-                    <input type="checkbox" class="check-input" id="user-privacy" value="true" name="user-privacy" />
+                    <input type="checkbox" class="check-input visually-hidden" id="user-privacy" value="true" name="user-privacy" />
                     <label for="user-privacy" class="policy"> I accept the terms and conditions of the 
                         <span class="label-span"> <svg class="span-svg" width="10" height="8">
                                 <use href="./images/icons.svg#icon-Checkbox-1"></use>
                             </svg>
                         </span>
                         <a href="" class="label-a">Privacy Policy</a>
-
-                        <input type="checkbox" id="privacy" name="privacy" value="true"
-                            class="modal-check visually-hidden" />
-                        <label for="privacy" class="check-text">
-                            <span>
-                                <svg class="check-icon" width="10" height="8">
-                                    <use href="./images/icons.svg#icon-check"></use>
-                                </svg>
-                            </span>
-                            privacy <a href="">policy</a>
-                        </label>
-
+                    </label>
                 </div>
                 <button class="send">Send</button>
             </form>
         </div>
-    </div>
     </div>
     <script src="./js/modal.js"></script>
 </body>
