@@ -990,7 +990,7 @@ nav li a:focus {
 .span-svg {
     height: 16px;
     width: 16px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .privacy {
@@ -1043,10 +1043,6 @@ nav li a:focus {
     justify-content: center;
     fill: transparent;
 }
-
-/* .privacy span {
-    display: inline-flex;
-} */
 
 
 .send {
