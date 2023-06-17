@@ -1032,8 +1032,8 @@ nav li a:focus {
 
 .label-span {
     display: inline-flex;
-    /* position: absolute;
-    left: 24px; */
+    position: absolute;
+    left: 24px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1042,6 +1042,10 @@ nav li a:focus {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.privacy span {
+    display: inline-flex;
 }
 
 
