@@ -1031,7 +1031,7 @@ nav li a:focus {
 }
 
 .label-span {
-    /* display: inline-flex; */
+    display: inline-flex;
     position: absolute;
     left: 24px;
     width: 16px;
