@@ -1031,9 +1031,9 @@ nav li a:focus {
 
 .label-span {
     display: inline-flex;
-    /* position: absolute; */
-    /* margin-top: 5px;
-    left: 24px; */
+    position: absolute;
+    margin-top: 5px;
+    left: 24px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
